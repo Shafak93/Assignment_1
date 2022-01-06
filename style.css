@@ -1,0 +1,169 @@
+/*
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Spline Sans', sans-serif;
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*
+===============================================
+Header Section
+===============================================
+*/
+.header{
+    padding-top: 50px;
+    display: flex;
+}
+.org-color{
+    color: orange;
+}
+.border-line{
+    border-left: 4px solid tomato;
+    
+}
+.header h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    padding-left: 20px;
+    
+}
+.half-div{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-div img{
+    width: 70%;
+}
+.btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+}
+.half-div small{
+    display:block;
+    margin-top: 50px;
+}
+/*
+Second Section
+===============================================
+*/
+.headline h1{
+    font-family: 'Spline Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.headline span{
+    color: orange;
+}
+.cart-items{
+    display: flex;
+}
+.cart{
+    width: 30%;
+    margin-left: 5%;
+   padding: 20px 40px;
+    border-radius: 15px;
+}
+.cart img{
+    width: 150px;
+}
+.first{
+    background-color: rgb(179, 223, 240,.4);
+}
+.second{
+    background-color: rgb(221, 195, 145,.4);
+}
+.third{
+    background-color: rgba(241, 169, 157,.4);
+}
+
+/*
+Third Section
+===========================================
+*/
+.third-section{
+    margin-top: 80px;
+    padding-left: 5%;
+    display: flex;
+    background-image: url(images/shape.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+.firs-half h1{
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 40px;
+}
+.third-section img{
+    width: 400px;
+    
+}
+
+/*
+Fourth Section
+===============================================
+*/
+.fourth-section{
+    display: flex;
+}
+.project{
+    width: 400px;
+    margin-right: 5%;
+
+}
+.firs-half{
+    margin-left: 5%;
+    width: 50%;
+}
+/*
+Fifth-Section
+==============================================
+*/
+.fifth-section{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: 400px;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 10px;
+}
+.fifth-section h1{
+ text-align: center;
+ margin-top: 20px;
+ padding-top: 30px;
+ font-family: 'Spline Sans', sans-serif;
+    font-size: 40px;
+}
+.services{
+    display: flex;
+}
+.first-services{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 20px gray;
+    text-align: center;
+}
+
+
+/*
+Footer Area
+==============================
+*/
+footer h1{
+    font-family: 'Moon Dance', cursive;
+    
+}
+footer span{
+    color: tomato;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
